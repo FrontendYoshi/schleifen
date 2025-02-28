@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Loop Basic
+        <script>
+
+            // print first 3 numbers to the console
+
+            // console.log(1)
+            // console.log(2)
+            // console.log(3)
+            // console.log(4)
+            // console.log(5)
+
+            // for-loops
+            //(Standardwert,Bedingung,Änderung)
+            // i = i + 1 == i++   
+            // i = i - 1 == i--
+            // ist eine verkürzte Schreibweise
+            for (let i = 1; i <= 10; i = i++) {
+                //code, der wiederholt wird
+                console.log(i);
+            }
+
+            // Aufgabe: errechne die Potenzen der Zahlen von 1 bis 10
+            // Task: calculate the powers of the numbers from 1 to 10
+            for (let i = 1; i <= 10; i++) {
+                console.log(`die Potenz von $(i) ist gleich:`);
+                console.log(i * i);
+            }
+
+            // Aufgabe: Zähle von 100 bis 50 und gib die Zahlen in der Konsole aus
+
+            for (let i = 100; i >= 50; i--) {
+                console.log(i);
+            }
+
+            // 15 Minuten Timer
+            for (let i = 900; i>=0; i--) {
+             setTimeout(1000, function() {
+                console.log(i);
+             }   
+            )}
+
+            //  <!--while-loops-->
+        </script>
+    </h1>
+</body>
+
+</html>
